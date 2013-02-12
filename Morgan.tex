@@ -1,0 +1,51 @@
+\documentclass[12pt,letterpaper,roman]{moderncv}
+\moderncvtheme[red]{classic}
+
+\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{2cm}
+\AtBeginDocument{\recomputelengths}
+
+\firstname{Morgan}
+\familyname{Kesler}
+\address{4127 26th Ave N}{St Petersburg, FL 33713}
+\mobile{(813) 316-3833}
+\email{keslerm@dasbiersec.com}
+\homepage{www.dasbiersec.com}
+
+%\title{Morgan Kesler's Resume}
+
+\nopagenumbers{}
+
+\begin{document}
+
+\maketitle
+
+\section{Skills}
+	\cvline{Langues:}{Java, Python, C\#, PHP}
+	\cvline{Databases:}{PostgreSQL, MySQL, MSSQL}
+	\cvline{Technologies:}{JavaEE, JBoss AS 7, Faces (Richfaces, MyFaces, Faces 2)}
+	\cvline{Versioning:}{Mercurial, Git, Subversion}
+	\cvline{Testing:}{Java (JUnit, TestNG) PHP (PHPUnit)}
+	\cvline{Networking:}{RESTful and SOAP based web service APIs}
+	
+
+\section{Experience}
+	\cventry{2010-2013}{Developer}{Kobie Marketing}{St Petersburg, FL}{}{
+		\begin{itemize}
+			\item Implemented multiple integrations with telecom and financial clients using REST and SOAP based web services, flat files and databases handling 500,000 to 1,000,000 transactions monthly.
+			\item Worked with a Solutions Architect to design business requirements for new client implementations to customimze platform to fit customer needs. 
+			\item Developed ETL and data aggreation, using SQL and Java, for customer reporting on large data sets, along with optimizing existing processes to handle large data sets more effeciently to reduce runtime of processing.
+		\end{itemize}
+	}
+
+	\cventry{2007-2010}{Web Developer}{GPS Fleet Solutions}{Wesley Chapel, FL}{}{
+		\begin{itemize}
+			\item Designed and developed a highly customized customer portal with trouble ticketing, online quoting, ordering, inventory and shipment tracking to move business from paper based system.
+			\item Integrated multiple vendors GPS tracking systems into internal customer portal for web based mapping and single sign on functionality using MS SQL and REST based web services.
+			\item Converted an ACT! MS SQL CRM system to a SugarCRM MySQL system using a custom ETL tool for data mapping, along with integrating SugarCRM with the internal customer portal.
+		\end{itemize}
+	}
+
+\section{Extra}
+	\cvlistitem{Bitbucket Contributor - see \url{https://www.bitbucket.org/keslerm}}
+\end{document}
