@@ -1,5 +1,6 @@
 syntax: glob
 
+*.swp
 *.aux
 *.bbl
 *.blg
@@ -9,5 +10,5 @@ syntax: glob
 *.synctex.gz
 *.thm
 *.toc
-
+*.dvi
 
