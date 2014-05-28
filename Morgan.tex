@@ -1,12 +1,11 @@
-\documentclass[12pt,letterpaper,roman]{moderncv}
+\documentclass[11pt,letterpaper,roman]{moderncv}
 \moderncvtheme[red]{classic}
 
-\usepackage[scale=0.75,top=0.8cm, bottom=0.8cm]{geometry}
+\usepackage[scale=0.8]{geometry}
 \setlength{\hintscolumnwidth}{0.15\textwidth}
 \usepackage{mathpazo}
 \renewcommand{\sfdefault}{\rmdefault}
 \AtBeginDocument{\recomputelengths}
-
 
 \firstname{Morgan}
 \familyname{Kesler}
@@ -24,31 +23,38 @@
 \maketitle
 
 \section{Skills}
-	\cvline{Langues:}{Java, Ruby, Python, C\#, PHP}
+	\cvline{Languages:}{Java, Ruby, Python, C\#, PHP}
 	\cvline{Databases:}{PostgreSQL, MySQL, MSSQL}
-	\cvline{Frameworks:}{JavaEE, Spring}
-	\cvline{Platforms:}{Jboss AS 7, Tomcat}
+	\cvline{Technologies:}{JavaEE, JBoss AS 7}
+	\cvline{VCS:}{Mercurial, Git, Subversion}
+	\cvline{Testing:}{Java (JUnit, TestNG) PHP (PHPUnit)}
 	
 
 \section{Experience}
-	\cventry{2010-2013}{Developer}{Kobie Marketing}{St Petersburg, FL}{}{
+	\cventry{2010-Current}{Java Developer}{Kobie Marketing}{St Petersburg, FL}{}{
 		\begin{itemize}
-			\item Implemented multiple integrations with telecom and financial clients using REST and SOAP based web services, flat files and databases handling 500,000 to 1,000,000 transactions monthly.
-			\item Used JavaEE, EJB, JBoss and batch jobs to create new programs for clients which include client specific web services, data persistence and external partner integration consistent with the business requirements.
-			\item Utilized JPA based data persistence with Hibernate and JBoss for all EJB implementations.
-			\item Developed ETL and data aggregation, using SQL and Java, for customer reporting on large data sets, along with optimizing existing processes to handle large data sets more efficiently to reduce runtime of processing.
-			\item Outlined and deployed process for upgrading existing clients running on legacy Jboss4/Postgres8 platform to the new Jboss7/Postgres9 platform.
-			\item Developed a system for a unique client involving direct mail promotions that reduced development time around new promotions by more than half.
+			\item Implemented multiple integrations for clients in the telecommunications, retail and financial services space using REST and SOAP based web services, flat files and databases handling 500,000 to 1,000,000 transactions monthly.
+			\item Used JavaEE, EJB, JBoss and batch jobs to create new programs for clients which include client specific web services, data persistence and external partner integrations consistent with the business requirements.
+			\item Utilized Hibernate based data persistence with Hibernate and JBoss for all EJB implementations.
+			\item Wrote SQL and Java for ETL and data aggregation processes for customer reporting on large data sets, along with optimizing existing processes to handle large data sets more efficiently to reduce runtime.
+			\item Writes test cases and utilized unit testing with JUnit to ensure programs follow supplied business requirements.
+			\item Participated in ongoing initiatives to improve processes for existing loyalty clients and establish best practices for the entire IT department to use. 
 		\end{itemize}
 	}
 
 	\cventry{2007-2010}{Web Developer}{GPS Fleet Solutions}{Wesley Chapel, FL}{}{
 		\begin{itemize}
-			\item Designed and developed a highly customized customer portal with trouble ticketing, online quoting, ordering, inventory and shipment tracking to move business from paper based system.
+			\item Designed and developed a highly customized customer portal with trouble ticketing, online quoting, ordering, inventory and shipment tracking to move business from a paper based to online.
+			\item Designed, developed and maintained companies consumer facing website using CakePHP and MySQL along with integrating it with SugarCRM for lead management.
+			\item Developed integration with Google Maps API with PHP, MySQL, and SQL Server to output raw GPS data routes and points on a web based map, along with automated Geo-Fencing alerts.
+			\item Wrote SQL scripts to compile GPS data into reports that outlined miles traveled, alerts generated, hours running, hours idling, and PTO usage using SQL Server.
 			\item Integrated multiple vendors GPS tracking systems into internal customer portal for web based mapping and single sign on functionality using MS SQL and REST based web services.
 			\item Converted an ACT! MS SQL CRM system to a SugarCRM MySQL system using a custom ETL tool for data mapping, along with integrating SugarCRM with the internal customer portal.
 		\end{itemize}
 	}
+
+\section{Education}
+	\cvline{2004:}{High School Diploma}
 
 \section{Extra}
 	\cvlistitem{GitHub Contributor - see \url{https://github.com/keslerm}}
